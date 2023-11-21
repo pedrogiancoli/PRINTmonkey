@@ -1,7 +1,7 @@
 * {
-  margin: auto auto;
   padding: 0;
   box-sizing: border-box;
+  margin: 0px auto 0px auto;
 }
 
 html {
@@ -19,7 +19,7 @@ header nav {
   background-color: #fff500;
 }
 
-header nav a{
+header nav a {
   border: 1px solid;
   width: 324px;
   padding: 5px 20px 5px 20px;
@@ -48,72 +48,30 @@ main article p {
   padding: 20px;
 }
 
-main section img:hover{
+main section img:hover {
   border: #fff500 2px solid;
 }
-
-article {
-  padding: 40px;
-  width: 1000px;
-  display: flex;
-}
-
-
-.resumo {
-  font-size: larger;
-  display: block;
-  color: #fff;
-  width: 1280px;
-  text-align: start;
-  padding-bottom: 40px;
-}
-
-.resumo p {
-  width: 1280px;
-  padding: 30px 0px;
-  text-align: start;
-}
-
 
 main hr {
   color: rgb(165, 165, 165);
 }
 
 main {
+  margin: auto;
   width: 1480px;
   background-color: #000;
+  padding-bottom: 30px;
 }
 
-.og, .tim, .new{
-  display: flex;
-  flex-wrap: wrap;
+.titulo {
+  font-size: xx-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-.og figure, .tim figure{
-  padding: 20px;
-  
+.tamanhofont{
+  font-size: xx-large;
 }
-
-.og a, .tim a, .new a{
-  color: #fff;
-  text-decoration: none;
-}
-
-.og a:hover, .tim a:hover, .new a:hover{
-  color: #fff500;
-  text-decoration: underline;
-}
-
-.new figure{
-  padding: 20px 10px;
-}
-
-.titulo{
-  margin-left: 60px;
-  padding: 15px 0px;
-}
-
-main h1{
+main h1 {
   font-family: 'Inria Sans', sans-serif;
 }
 
@@ -127,11 +85,11 @@ footer {
 
 footer nav {
   font-family: 'Inria Sans', sans-serif;
-  width: 700px; 
+  width: 700px;
   text-align: center;
 }
 
-footer nav ul{
+footer nav ul {
   width: 300px;
 }
 
@@ -153,11 +111,12 @@ footer nav ul li a:hover {
 .socials {
   width: 700px;
   display: flex;
-  flex-direction: row; 
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-.socials img{
+.socials img {
   border-radius: 15%;
 }
 
@@ -166,29 +125,54 @@ footer nav ul li a:hover {
   display: flex;
 }
 
-footer hr{
-  height: 198px;
+footer hr {
+  height: 200px;
 }
 
-main hr{
+main hr {
   color: rgb(165, 165, 165);
 }
-
-
-footer hr{
-  height: 248px;
-}
-
-small{
+small {
   background-color: #fff500;
 }
 
-ul hr{
+ul hr {
   height: auto;
   margin-top: 5px;
 }
 
-small{
+small {
   background-color: #fff500;
   border: 1px solid;
+}
+
+ .imgs1{
+  display: flex;
+  padding 300px 70px ;
+  flex-direction: row;
+}
+
+section p{
+  padding-top: 100px;
+  padding-left: 30px;
+}
+
+.nav1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: auto;
+}
+.footing hr{
+  height: auto;
+}
+
+.fig1{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+a img{
+ border: none;
 }
